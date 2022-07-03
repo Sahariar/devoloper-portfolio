@@ -27,6 +27,7 @@ h2{
     float: left;
     padding-left: 2%;
     margin-left: 5%;
+    min-height: 320px;
 }
 .an-button{
     text-decoration: none;
@@ -37,9 +38,42 @@ h2{
     font-weight: bold;
     color: #fff;
 }
-
 .dream-area{
-    background-image: url(./images/top-banner.png);
+    background-image: url(./images/dream-bg.png);
+    background-position:right;
     background-repeat: no-repeat;
     width: 100%;
+}
+.expriance-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.img-resize{
+    width: 85%;
+    height: 85%;
+}
+.text-center{
+    text-align: center;
+}
+footer{
+    clear: both;
+    padding: 40px 0;
+}
+.expriance-area .half-width{
+    box-shadow:  0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: #fff; 
+    margin-top: 4%;
+}
+#fs-devbox{
+    border-left: 8px solid orangered;
+}
+#by-devbox{
+    border-left: 8px solid greenyellow;
+}
+#css-devbox{
+    border-left: 8px solid blueviolet;
+}
+#web-devbox{
+    border-left: 8px solid mediumspringgreen;
 }
